@@ -2,7 +2,7 @@
 
 .navbar-Styling{
     /* margin: auto; */
-    margin-left: 210px;
+    margin-left: 180px;
     font-family: Helvetica;
     font-weight: bold;
     font-size: 25px;
@@ -81,11 +81,16 @@
     background-color: rgba(90,94,104,255);
     background-size: cover;
     width:330px;
-    opacity: 1;
     border-radius: 150px;
     margin-bottom: 40px;
     margin: auto;
     text-align: start;
+}
+
+.homepage-h2-button{
+    /* width: fit-content; */
+    margin: auto;
+    background-size: cover;
 }
 
 .homepage-h2-image{
@@ -115,7 +120,7 @@
 
 .cities-mapped-button-images-card-Styling{
     width: 200%;
-    padding-top: 15%;
+    padding-top: 30%;
 }
 
 
@@ -225,9 +230,17 @@
     margin-right: 300px;
 }
 
+.Aboutus-description-Styling1{
+    font-size: 24px;
+    text-align: justify;
+    /* margin-right: 300px; */
+}
+
 .team-card{
     text-align: center;
+    font-size: 16px;
 }
+
 .Team-Card-images-Stlting{
     width: 70%;
     text-align: center;
@@ -235,7 +248,6 @@
 
 .Team-Card-images-Stlying{
     text-align: center;
-    font-size: 16x;
 }
 
 .team-names-card{
