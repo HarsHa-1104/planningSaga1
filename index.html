@@ -12,21 +12,19 @@
 
 <body>
     <nav class="navbar navbar-expand-lg navbar-background-Styling fixed-top ">
-        <div class = "container">
-            <a class="navbar-brand" href="index.html">
-                <img src="https://res.cloudinary.com/djalsmatk/image/upload/v1726490048/PS%20Website/gjfgnr5bxeflqseepdwp.png" class="navbar-Logo1 d-none d-lg-block" />
-                <img src="https://res.cloudinary.com/djalsmatk/image/upload/v1726596878/PS%20Website/yb4yab0vvi1utema14s0.png" class="navbar-Logo1 d-block d-lg-none" />
-            </a>
-            <button class="navbar-toggler navbar-dark" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-                <div class="navbar-nav navbar-Styling">
-                    <a class="nav-item nav-link navbar-text-alignment navbar-text-color" href="index.html">Home <span class="sr-only">(current)</span></a>
-                    <a class="nav-item nav-link navbar-text-alignment navbar-text-color" href="aboutUs.html">About us</a>
-                    <a class="nav-item nav-link navbar-text-alignment navbar-text-color" href="service.html">Services</a>
-                    <a class="nav-item nav-link navbar-text-color" href="#sectionContactus">Contact us</a>
-                </div>
+        <a class="navbar-brand" href="index.html">
+            <img src="https://res.cloudinary.com/djalsmatk/image/upload/v1726490048/PS%20Website/gjfgnr5bxeflqseepdwp.png" class="navbar-Logo1 d-none d-lg-block" />
+            <img src="https://res.cloudinary.com/djalsmatk/image/upload/v1726596878/PS%20Website/yb4yab0vvi1utema14s0.png" class="navbar-Logo1 d-block d-lg-none" />
+        </a>
+        <button class="navbar-toggler navbar-dark" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+            <div class="navbar-nav navbar-Styling">
+                <a class="nav-item nav-link navbar-text-alignment navbar-text-color" href="index.html">Home <span class="sr-only">(current)</span></a>
+                <a class="nav-item nav-link navbar-text-alignment navbar-text-color" href="aboutUs.html">About us</a>
+                <a class="nav-item nav-link navbar-text-alignment navbar-text-color" href="service.html">Services</a>
+                <a class="nav-item nav-link navbar-text-color" href="#sectionContactus">Contact us</a>
             </div>
         </div>
     </nav>
@@ -35,31 +33,32 @@
         <div class="d-flex flex-column justify-content-center" id = "sectionHomePage">
             <div id="carouselExampleControls" class="carousel slide homePage-image-card-Styling" data-ride="carousel">
                 <div class="carousel-inner">
-                  <div class="carousel-item active">
+                  <div class="carousel-item active" data-interval="2000">
                     <img src="https://res.cloudinary.com/djalsmatk/image/upload/v1726416226/PS%20Website/iidwxerrnvskgndo7yrq.png" class="d-block w-100" alt="...">
                   </div>
-                  <div class="carousel-item">
+                  <div class="carousel-item" data-interval="2000">
                     <img src="https://res.cloudinary.com/djalsmatk/image/upload/v1726416226/PS%20Website/faqiwis9bzs4mlrn3d1k.png" class="d-block w-100" alt="...">
                   </div>
-                  <div class="carousel-item">
+                  <div class="carousel-item" data-interval="2000">
                     <img src="https://res.cloudinary.com/djalsmatk/image/upload/v1726495121/PS%20Website/fx7x8uab7mxsearv86pk.png" class="d-block w-100" alt="...">
                   </div>
-                  <div class="carousel-item">
+                  <div class="carousel-item" data-interval="2000">
                     <img src="https://res.cloudinary.com/djalsmatk/image/upload/v1726495120/PS%20Website/li1rxbfcqrsck2mekept.png" class="d-block w-100" alt="...">
                   </div>
-                  <div class="carousel-item">
+                  <div class="carousel-item" data-interval="2000">
                     <img src="https://res.cloudinary.com/djalsmatk/image/upload/v1726495122/PS%20Website/thexsrs4oejirmcfwbpw.png" class="d-block w-100" alt="...">
                   </div>
                 </div>
-                <a class="carousel-control-prev carousel-dark" href="#carouselExampleControls" role="button" data-slide="prev">
-                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                  <span class="sr-only">Previous</span>
+                <a class="carousel-control-prev homePage-carousel-button" href="#carouselExampleControls" role="button" data-slide="prev">
+                  <span class="carousel-control-prev-icon homePage-carousel-button" aria-hidden="true"></span>
+                  <span class="sr-only ">Previous</span>
                 </a>
-                <a class="carousel-control-next carousel-dark" href="#carouselExampleControls" role="button" data-slide="next">
+                <a class="carousel-control-next homePage-carousel-button" href="#carouselExampleControls" role="button" data-slide="next">
                   <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                  <span class="sr-only">Next</span>
+                  <span class="sr-only homePage-carousel-button">Next</span>
                 </a>
             </div>
+            
             <h1 class = "homepage-h1">TECH STARTUP SPECIALIZING IN GIS BASED MAPPING</h1>
             <p class = "homepage-p">Currently developing the backdrop for a Metaverse Gaming Platform</p>
             <!-- Button trigger modal -->
@@ -72,7 +71,7 @@
             
             <!-- Modal -->
             <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-                <div class="d-flex justify-content-center modal-dialog modal-card">
+                <div class="d-flex justify-content-center modal-dialog homePage-modal-card">
                     <img src = "https://res.cloudinary.com/djalsmatk/image/upload/v1726497932/PS%20Website/fs1vho3dzdbmxhb2fybo.gif" class ="cities-mapped-button-images-card-Styling"/>
                 </div>
             </div>
@@ -80,12 +79,13 @@
         <!-- Services -->
         <div>
             <div class="container">
-                <div class="row service-card1-details">
+                <div class="row homePage-service-card1-details">
                     <div class="col-12 col-lg-4 mb-5">
                         <div class="TypesofProjects-Styling">
                             <div class="TypesofProjects-heading-Styling">
                                 <h3 class="pt-2 services-heading-Styling">GIS & PLANNING</h3>
-                                <P class="TypesofProjects-paragraph-Styling pt-3 pb-3">Digital Cartography,<br/>  Geocoding & API, <br/> Spatial / Semantic Analysis and Inventory services</P>
+                                <P class="TypesofProjects-paragraph-Styling pt-3 pb-3 d-none d-lg-block">Digital Cartography,<br/>  Geocoding & API, <br/> Spatial / Semantic Analysis and Inventory services</P>
+                                <P class="TypesofProjects-paragraph-Styling pt-3 pb-3 d-block d-lg-none">Digital Cartography, Geocoding & API, Spatial / Semantic Analysis and Inventory services</P>
                             </div>
                         </div>
                     </div>

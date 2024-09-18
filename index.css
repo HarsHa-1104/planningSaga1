@@ -2,7 +2,7 @@
 
 .navbar-Styling{
     /* margin: auto; */
-    margin-left: 180px;
+    margin-left: 225px;
     font-family: Helvetica;
     font-weight: bold;
     font-size: 25px;
@@ -28,10 +28,6 @@
     margin-right: 200px;
 }
 
-.navbar-button{
-    color: #f6f0df;
-}
-
 .navbar-Logo1{
     width: 170px;
 }
@@ -52,6 +48,10 @@
 .homePage-image-card-Styling{
     width: 100%;
     margin-bottom: 65px;
+}
+
+.homePage-carousel-button{
+    color: rgb(41, 38, 38);
 }
 
 .homepage-h1{
@@ -124,7 +124,7 @@
 }
 
 
-.modal-card{
+.homePage-modal-card{
     width: 90px;
 }
 
@@ -138,7 +138,7 @@
     font-family: Helvetica;
 }
 
-.service-card1-details{
+.homePage-service-card1-details{
     margin-top: 90px;
 }
 
@@ -201,9 +201,6 @@
     padding: 10px;
 }
 
-.service-html-sheet-stlying{
-    width: 100%;
-}
 
 .Aboutus-Styling{
     margin: auto;
@@ -254,6 +251,9 @@
     font-weight: bold;
 }
 
+.service-html-sheet-stlying{
+    width: 100%;
+}
 
 .Contact-us-section {
     /* background-image: linear-gradient(to left,#201b21,#01214d,#201b21); */
